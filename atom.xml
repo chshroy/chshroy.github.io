@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-27T12:37:35.711Z</updated>
+  <updated>2018-12-27T13:06:04.939Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2018/12/27/first-c/"/>
     <id>http://yoursite.com/2018/12/27/first-c/</id>
     <published>2018-12-27T12:27:53.000Z</published>
-    <updated>2018-12-27T12:37:35.711Z</updated>
+    <updated>2018-12-27T13:06:04.939Z</updated>
     
     <content type="html"><![CDATA[<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;iostream&gt;</span><br><span class="line">using namespace std;</span><br></pre></td></tr></table></figure>]]></content>
     
