@@ -1,20 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>AGD coder</title>
   
   
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-26T17:36:58.545Z</updated>
+  <updated>2018-12-27T12:05:14.332Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>Roy lin</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>first post</title>
+    <link href="http://yoursite.com/2018/12/27/first-post/"/>
+    <id>http://yoursite.com/2018/12/27/first-post/</id>
+    <published>2018-12-27T11:35:20.000Z</published>
+    <updated>2018-12-27T12:05:14.332Z</updated>
+    
+    <content type="html"><![CDATA[<p>hello guys! this is my first post</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;hello guys! this is my first post&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="others" scheme="http://yoursite.com/categories/others/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
