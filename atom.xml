@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-27T13:42:17.430Z</updated>
+  <updated>2018-12-27T17:15:45.192Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2018/12/27/how-to-update-the-post/"/>
     <id>http://yoursite.com/2018/12/27/how-to-update-the-post/</id>
     <published>2018-12-27T13:35:48.000Z</published>
-    <updated>2018-12-27T13:42:17.430Z</updated>
+    <updated>2018-12-27T17:15:45.192Z</updated>
     
     <content type="html"><![CDATA[<p>cmd<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;post name&quot;</span><br></pre></td></tr></table></figure></p><p>更新的github<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo d -g</span><br></pre></td></tr></table></figure></p><p>文章加code<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% codeblock lang:cpp %&#125;</span><br><span class="line">code</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure></p>]]></content>
     
@@ -36,6 +36,8 @@
     
       <category term="hexo指令" scheme="http://yoursite.com/categories/hexo%E6%8C%87%E4%BB%A4/"/>
     
+    
+      <category term="hexo指令" scheme="http://yoursite.com/tags/hexo%E6%8C%87%E4%BB%A4/"/>
     
   </entry>
   
