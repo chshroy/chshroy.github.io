@@ -13,7 +13,7 @@
 <meta property="og:site_name" content="AGD coder">
 <meta property="og:description" content="我是彰化高中的學生，此blog由hexo創造而成">
 <meta property="og:locale" content="zh-hk">
-<meta property="og:updated_time" content="2018-12-27T17:36:35.730Z">
+<meta property="og:updated_time" content="2018-12-28T12:50:00.992Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="AGD coder">
 <meta name="twitter:description" content="我是彰化高中的學生，此blog由hexo創造而成">
@@ -76,23 +76,27 @@
         <li><a href="/archives/">Writing</a></li>
        
         <li><a href="/projects_url">Projects</a></li>
-       
-        <li><a href="/search/">Search</a></li>
       
     </ul>
   </div>
 </header>
 
         
-        <article class="post" itemscope="" itemtype="http://schema.org/BlogPosting">
-  
-
-  <div class="content" itemprop="articleBody">
-      
-          
-        
-  </div>
-</article>
+        <section id="search">
+    <span class="h1"><a href="#">Search</a></span>
+    <form>
+        <div class="row">
+            <div class="col-xs-8 col-md-4">
+                <input type="text" class="search-input" id="search-input" placeholder="search...">
+            </div>
+            <div class="col-xs-4 col-md-2">
+                <button type="reset" class="reset-button" onclick="resetSearch()">reset</button>
+            </div>
+        </div>
+        </form>
+        <div id="search-result"></div>
+        <p class="no-result">No results found</p>
+</section>
 
         
         <footer id="footer">
@@ -110,8 +114,6 @@
           <li><a href="/archives/">Writing</a></li>
          
           <li><a href="/projects_url">Projects</a></li>
-         
-          <li><a href="/search/">Search</a></li>
         
       </ul>
     </nav>
@@ -122,6 +124,9 @@
 </body>
 </html>
 <!-- styles -->
+
+<link href="https://cdn.bootcss.com/flexboxgrid/6.3.1/flexboxgrid.min.css" rel="stylesheet">
+
 <link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
 <link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
 
@@ -130,6 +135,8 @@
 <script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
 <script src="/js/main.js"></script>
 <!-- search -->
+
+    <script src="/js/search.js"></script>
 
 <!-- Google Analytics -->
 
